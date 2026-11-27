@@ -1,0 +1,6 @@
+Ticket_ID,Customer_Name,Email,Phone,PAN,Aadhaar,Card_Number,Order_Ref_16Digit,Client_IP,Server_IPv6,UPI,IFSC,Notes
+TCK-101,Ananya Kulkarni,ananya.k@startup.in,+919823011223,BGLPK4821M,4829 1034 5512,4532-0151-1283-0366,1234567890123456,172.16.254.1,2001:0db8:85a3:0000:0000:8a2e:0370:7334,ananya.k@okhdfcbank,HDFC0001234,"Refund requested, priority high"
+TCK-102,Vikram Mehta,v.mehta@enterprise.org,9123456789,AABCU9603R,2345 6789 0123,5425233430109903,9981440277191100,203.0.113.42,fe80:0000:0000:0000:0202:b3ff:fe1e:8329,v.mehta@okicici,ICIC0000456,Card payment failed once
+TCK-103,Rohan Deshmukh,rohan.deshmukh92@example.co.in,+91-9876543210,ABCDE1234F,5678 1234 9012,5105105105105100,8821004921847720,192.168.14.205,2001:0db8:85a3:0000:0000:8a2e:0370:7334,rohan.deshmukh@okhdfcbank,HDFC0001234,KYC renewal due
+TCK-104,Ananya Kulkarni,ananya.k@startup.in,+919823011223,BGLPK4821M,4829 1034 5512,4532-0151-1283-0366,1234567890123456,172.16.254.1,2001:0db8:85a3:0000:0000:8a2e:0370:7334,ananya.k@okhdfcbank,HDFC0001234,Repeat customer - same email PAN and card as TCK-101
+TCK-105,Meera Joshi,meera.joshi@example.com,9812345678,BGLPK4821M,6789 0123 4567,4916389012345676,4410992837461920,10.0.4.1,fe80:0000:0000:0000:0202:b3ff:fe1e:8329,meera.j@oksbi,SBIN0007890,"Escalated by support, call before 6 PM"

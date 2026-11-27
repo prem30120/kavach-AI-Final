@@ -1,0 +1,30 @@
+{
+  "name": "kavach-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "deploy": "npm run build && firebase deploy --only hosting",
+    "deploy:preview": "npm run build && firebase hosting:channel:deploy preview",
+    "firebase:login": "firebase login",
+    "firebase:init": "firebase init hosting"
+  },
+  "dependencies": {
+    "lucide-react": "^0.511.0",
+    "mammoth": "^1.9.1",
+    "pdfjs-dist": "^5.2.133",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "tailwindcss": "^4.1.5",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.3"
+  }
+}
